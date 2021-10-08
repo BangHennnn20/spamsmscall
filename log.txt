@@ -1,0 +1,379 @@
+10-02 11:12:37.581  1409  1610 E ActivityManager: Failure starting process com.google.android.gms.persistent
+10-02 11:12:37.581  1409  1610 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:4851)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1910)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2514)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2665)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3560)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bringUpServiceLocked(ActiveServices.java:3245)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:2275)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.bindIsolatedService(ActivityManagerService.java:16313)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1889)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:1826)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.rebind(ServiceWatcher.java:376)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBestServiceChanged(ServiceWatcher.java:342)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBindingDied(ServiceWatcher.java:429)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2027)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2063)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.os.Looper.loop(Looper.java:257)
+10-02 11:12:37.581  1409  1610 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-02 11:12:38.581  1409  1610 E ActivityManager: Failure starting process com.google.android.gms.persistent
+10-02 11:12:38.581  1409  1610 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:4851)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1910)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2514)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2665)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3560)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bringUpServiceLocked(ActiveServices.java:3245)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:2275)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.bindIsolatedService(ActivityManagerService.java:16313)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1889)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:1826)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.rebind(ServiceWatcher.java:376)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBestServiceChanged(ServiceWatcher.java:342)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBindingDied(ServiceWatcher.java:429)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2027)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2063)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.os.Looper.loop(Looper.java:257)
+10-02 11:12:38.581  1409  1610 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-02 11:12:43.581  1409  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 0,uid: 10166
+10-02 11:12:45.581  1409  1610 E ActivityManager: Failure starting process com.google.android.gms.persistent
+10-02 11:12:45.581  1409  1610 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:4851)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1910)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2514)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2665)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3560)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bringUpServiceLocked(ActiveServices.java:3245)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:2275)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.bindIsolatedService(ActivityManagerService.java:16313)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1889)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:1826)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.rebind(ServiceWatcher.java:376)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBestServiceChanged(ServiceWatcher.java:342)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBindingDied(ServiceWatcher.java:429)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2027)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2063)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.os.Looper.loop(Looper.java:257)
+10-02 11:12:45.581  1409  1610 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-02 11:12:51.581  1409  1610 E ActivityManager: Failure starting process com.google.android.gms.persistent
+10-02 11:12:51.581  1409  1610 E ActivityManager: java.lang.SecurityException: Package com.google.android.gms is currently frozen!
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:4851)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:1910)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2514)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ProcessList.startProcessLocked(ProcessList.java:2665)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3560)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bringUpServiceLocked(ActiveServices.java:3245)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActiveServices.bindServiceLocked(ActiveServices.java:2275)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.am.ActivityManagerService.bindIsolatedService(ActivityManagerService.java:16313)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1889)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:1826)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.rebind(ServiceWatcher.java:376)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBestServiceChanged(ServiceWatcher.java:342)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at com.android.server.ServiceWatcher.onBindingDied(ServiceWatcher.java:429)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:2027)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:2063)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.os.Looper.loop(Looper.java:257)
+10-02 11:12:51.581  1409  1610 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-02 11:12:55.581  1409  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 0,uid: 10166
+10-02 11:14:26.581  1409  1842 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+10-02 11:20:10.224   944   944 E wificond: vivo add tx_good 55397 tx_bad 4 rx_good 147581 tx_retry 158859
+10-02 11:22:12.581  1409  4226 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+10-02 11:22:38.422   944   944 E wificond: vivo add tx_good 58451 tx_bad 4 rx_good 155818 tx_retry 159246
+10-02 11:29:08.388   944   944 E wificond: vivo add tx_good 75581 tx_bad 4 rx_good 204163 tx_retry 159393
+10-02 11:29:16.882  1409  1535 E _V_VivoVibratorServiceImpl: VCode collect vibrator Map={start_time=1633148956285, shock=[{intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}], end_time=1633148956882, uuid=285812dd-32ef-4e90-8584-b07c585b2245}
+10-02 11:31:35.581  1409  1535 E _V_VivoVibratorServiceImpl: VCode collect vibrator Map={start_time=1633149070000, shock=[{intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}], end_time=1633149095581, uuid=e9dc7850-ce78-42f8-9f31-8472ebd74958}
+10-02 11:31:35.581  1409  1535 E _V_VivoVibratorServiceImpl: collect vibrator map={intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}
+10-02 11:31:35.581  1409  1535 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+10-02 11:31:36.581  1409  1535 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+10-02 11:31:36.581  1409  1684 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+10-02 11:33:06.581  1409  7652 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+10-02 11:33:06.581  1409  4400 E _V_VivoVibratorServiceImpl: opPkg=com.fill.funnybag.slot, effect=OneShot{mDuration=40, mAmplitude=-1}, isSupportTypeLinearMotor=0
+10-02 11:33:07.581  1409  1535 E _V_VivoVibratorServiceImpl: VCode collect vibrator Map={start_time=1633149187311, shock=[{intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}, {intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}], end_time=1633149187581, uuid=ea95ffce-8d7d-4332-8bc5-a7015cd3e438}
+10-02 11:33:07.581  1409  1535 E _V_VivoVibratorServiceImpl: collect vibrator map={intensity=145, times=40, module=com.fill.funnybag.slot, pattern=-1}
+10-02 11:33:08.581  1409  7706 E ActivityThread: Failed to find provider info for com.bbk.iqoo.logsystemes
+10-02 11:46:07.328   944   944 E wificond: vivo add tx_good 88000 tx_bad 4 rx_good 258164 tx_retry 159713
+10-02 12:22:51.923   944   944 E wificond: vivo add tx_good 106693 tx_bad 8 rx_good 360890 tx_retry 160581
+10-02 13:26:55.636   944   944 E wificond: vivo add tx_good 5818 tx_bad 8 rx_good 2697 tx_retry 162163
+10-02 13:31:46.581   944   944 E wificond: vivo add tx_good 7107 tx_bad 9 rx_good 3251 tx_retry 162609
+10-02 13:35:36.581   944   944 E wificond: vivo add tx_good 8332 tx_bad 11 rx_good 3679 tx_retry 162931
+10-02 13:44:24.877   944   944 E wificond: vivo add tx_good 11411 tx_bad 14 rx_good 4391 tx_retry 163581
+10-02 13:49:29.612   944   944 E wificond: vivo add tx_good 581 tx_bad 2 rx_good 203 tx_retry 163971
+10-02 13:52:12.581   944   944 E wificond: vivo add tx_good 2116 tx_bad 4 rx_good 462 tx_retry 164151
+10-02 14:06:24.293  1409  1485 E BatteryStatsImpl: All kernel wakelocks were set stale. new version=28581
+10-02 14:11:46.581  1409  1841 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+10-02 14:47:47.118  1409  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 25815,uid: 1000
+10-02 15:02:34.581  1409  1422 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+10-02 15:04:24.581  1409  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 31810,uid: 10185
+10-02 15:06:40.581   944   944 E wificond: vivo add tx_good 4347 tx_bad 0 rx_good 2981 tx_retry 167819
+10-02 15:07:01.710   944   944 E wificond: vivo add tx_good 4581 tx_bad 0 rx_good 3128 tx_retry 167838
+10-02 15:15:12.017   944   944 E wificond: vivo add tx_good 7581 tx_bad 3 rx_good 4287 tx_retry 168476
+10-02 15:49:44.581  1409  1626 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+10-02 15:51:39.423   944   944 E wificond: vivo add tx_good 5816 tx_bad 9 rx_good 9227 tx_retry 168893
+10-02 15:51:42.457   944   944 E wificond: vivo add tx_good 5819 tx_bad 9 rx_good 9232 tx_retry 168893
+10-02 22:39:44.581  1409  4226 W _V_AlarmAlign: Doont set to kernel
+10-03 02:50:56.026  1409  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 7581,uid: 1000
+10-03 04:12:21.969  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178935KB
+10-03 04:14:22.004  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178935KB
+10-03 04:16:22.106  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178891KB
+10-03 04:18:22.205  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178891KB
+10-03 04:20:22.317  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178867KB
+10-03 04:22:22.400  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178867KB
+10-03 04:23:57.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup29: Permission denied
+10-03 04:24:17.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+10-03 04:24:22.441  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178867KB
+10-03 04:24:41.979  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 04:26:22.512  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178839KB
+10-03 04:28:22.551  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178839KB
+10-03 04:30:22.621  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178823KB
+10-03 04:32:22.714  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178823KB
+10-03 04:34:22.801  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178751KB
+10-03 04:36:22.818  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178751KB
+10-03 04:38:22.862  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178715KB
+10-03 04:40:22.955  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178715KB
+10-03 04:42:23.058  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178715KB
+10-03 04:42:43.992  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 04:42:43.997  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 04:44:23.066  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178623KB
+10-03 04:46:23.067  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178623KB
+10-03 04:48:23.179  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178035KB
+10-03 04:49:17.581  2211  2620 E VivoSensorTest: vivo_sensor_factory_test system start
+10-03 04:50:23.278  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178035KB
+10-03 04:52:23.378  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 04:54:23.416  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 04:56:23.429  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 04:58:23.470  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 05:00:23.551  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 05:02:23.556  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 05:04:23.640  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=178023KB
+10-03 05:04:53.012  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:04:53.018  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:05:09.484  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:05:09.489  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:05:16.731  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:05:16.736  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:05:29.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+10-03 05:05:42.014  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:05:42.020  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:06:23.640  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177931KB
+10-03 05:08:23.675  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177931KB
+10-03 05:10:23.765  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177787KB
+10-03 05:12:23.870  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177787KB
+10-03 05:14:23.950  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177787KB
+10-03 05:16:24.060  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177787KB
+10-03 05:18:24.156  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177787KB
+10-03 05:18:48.609  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 05:20:24.248  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177643KB
+10-03 05:22:24.316  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177643KB
+10-03 05:24:24.360  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177643KB
+10-03 05:25:00.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+10-03 05:26:24.463  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177643KB
+10-03 05:28:24.504  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177219KB
+10-03 05:30:24.580  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177219KB
+10-03 05:32:24.668  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:34:24.766  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:36:24.865  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:38:24.910  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:40:25.009  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:42:25.098  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:44:11.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+10-03 05:44:25.195  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:46:25.283  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:48:25.397  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177163KB
+10-03 05:50:25.427  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177147KB
+10-03 05:52:25.420  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177140KB
+10-03 05:54:25.440  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177141KB
+10-03 05:56:25.543  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177137KB
+10-03 05:58:25.586  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177137KB
+10-03 06:00:25.621  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177141KB
+10-03 06:02:25.668  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177141KB
+10-03 06:04:25.773  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177129KB
+10-03 06:06:25.873  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177129KB
+10-03 06:08:25.912  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177057KB
+10-03 06:10:25.998  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177057KB
+10-03 06:12:26.119  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177057KB
+10-03 06:14:26.139  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177025KB
+10-03 06:16:26.217  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=177025KB
+10-03 06:18:26.256  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176989KB
+10-03 06:20:26.345  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176989KB
+10-03 06:22:26.382  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:24:23.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+10-03 06:24:26.396  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:26:26.504  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:26:26.639  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 06:26:26.656  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 06:27:07.581   570  1005 E libnetd_resolv: QUERY_RESOLV_NETID command.uid:10405, nid:0
+10-03 06:28:26.549  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:30:26.636  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:32:26.737  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:34:26.780  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:36:26.873  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:36:47.581  6619 16603 E PlayCommon: [126356] amgn.k(134): Failed to connect to server for server timestamp: java.net.UnknownHostException: Unable to resolve host "play.googleapis.com": No address associated with hostname
+10-03 06:38:26.924  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:38:44.911  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 06:38:44.918  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 06:40:26.960  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:42:27.003  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:44:27.030  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:46:27.129  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:48:27.217  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176865KB
+10-03 06:50:27.317  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 06:52:27.420  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 06:54:27.449  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 06:56:27.556  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 06:58:00.407  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 06:58:00.414  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 06:58:27.605  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 07:00:27.616  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 07:02:27.690  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 07:04:27.803  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 07:06:27.917  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176853KB
+10-03 07:07:46.581  6932  6998 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:08:27.916  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176849KB
+10-03 07:10:28.009  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176849KB
+10-03 07:12:28.114  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176841KB
+10-03 07:14:28.211  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176841KB
+10-03 07:16:28.311  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176825KB
+10-03 07:18:28.414  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176825KB
+10-03 07:19:53.009  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:19:53.014  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:20:10.484  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:20:10.489  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:20:28.515  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176825KB
+10-03 07:20:33.180  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:20:33.194  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 07:22:28.608  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176797KB
+10-03 07:22:38.581   948  1105 D ULogGuard: Monitoring: 16 threads, 0 requests, 0 time-bombs; 5 guards. ResetFlags = 0x7
+10-03 07:24:16.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+10-03 07:24:28.658  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176797KB
+10-03 07:26:28.759  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176725KB
+10-03 07:28:28.814  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176725KB
+10-03 07:30:28.901  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:32:28.954  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:34:29.054  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:36:29.154  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:38:29.207  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:40:29.259  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:42:16.581  1409  4378 E ActivityManager: Sending non-protected broadcast action.topinfo from system 2184:com.vivo.pem/1000 pkg com.vivo.pem
+10-03 07:42:29.358  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176621KB
+10-03 07:43:17.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+10-03 07:44:29.459  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176613KB
+10-03 07:46:29.555  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176613KB
+10-03 07:48:29.652  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176613KB
+10-03 07:50:29.758  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176613KB
+10-03 07:52:29.837  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176609KB
+10-03 07:54:29.866  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176609KB
+10-03 07:56:29.966  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176609KB
+10-03 07:56:37.581   635   635 V APM_AudioPolicyManager: getNewOutputDevices selected devices {type:0x2,@:}
+10-03 07:56:37.581   635   635 E _V_FeatureManager: erro!!,gFeatureNotifyCallback = NULL 
+10-03 07:56:37.581   635 28349 V APM_AudioPolicyManager: getDevicesForStream() device {type:0x2,@:}, activeDevices {type:0x2,@:}
+10-03 07:56:37.581   927 24954 E _V_FeatureManager: erro!!,gFeatureNotifyCallback = NULL 
+10-03 07:58:30.030  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:00:30.141  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:02:30.158  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:04:30.197  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:06:30.298  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:08:30.352  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:08:44.006  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 08:08:44.012  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 08:10:30.420  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:12:30.520  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:14:30.621  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:16:30.713  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:18:30.796  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:20:30.898  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:22:30.991  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176594KB
+10-03 08:24:31.035  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:26:31.133  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:28:11.291  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 08:28:11.321  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 08:28:31.204  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:30:31.295  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:32:31.403  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:34:31.513  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:36:31.597  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:38:31.646  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:40:31.680  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176590KB
+10-03 08:42:31.709  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:43:50.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+10-03 08:44:31.760  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:46:31.813  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:47:18.581  2184  2948 E _V_FrozenBaseImpl: supportFreezeMultiUser
+10-03 08:48:31.822  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:50:23.454  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 08:50:23.456  6507  6581 E IConnectivityManagerProxy: getActiveNetworkInfo is called!
+10-03 08:50:31.916  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:52:32.026  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:54:32.031  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:55:14.581   635 23222 V APM_AudioPolicyManager: selectOutput new bestOutput 13 criteria 0 0 0 0 0 0 0 2 
+10-03 08:55:14.581   635 23222 V APM_AudioPolicyManager: getOutput() stream 3 selected devices {type:0x2,@:}, output 13
+10-03 08:56:32.127  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 08:58:32.195  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 09:00:32.235  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 09:02:32.285  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 09:03:01.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup22: Permission denied
+10-03 09:03:11.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+10-03 09:03:21.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+10-03 09:04:32.388  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176582KB
+10-03 09:04:44.581   947  1073 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_acc(720/g) -707, 68, 142 ts 1004260025275
+10-03 09:11:44.581 20367 20367 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-03 10:39:44.510  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=176974KB
+10-03 10:47:44.581  1409  1423 D _V_DisplayPowerControllerImpl: mSettingBrightness = -1.0 as request 0.003112983
+10-03 11:03:45.899  2205  2477 E Parcel  : 	at android.os.Parcel.readArrayMapInternal(Parcel.java:3581)
+10-03 11:49:54.581   569   574 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10070[I] (10)0x30000->ProcessSmsAction:1633229877532002[S] 
+10-03 12:09:00.374   947  1073 E android.hardware.sensors@2.0-service-mediatek: akm_log setv_mag(uT) -130.800003, 63.450001, -230.100006  ts 1015315818279 
+10-03 12:09:17.581   603   680 I libPowerHal: [perfLockAcq] idx:3 hdl:496091 hint:1157 pid:633 duration:80 => ret_hdl:496091
+10-03 12:09:17.581   603   680 I libPowerHal: [PE] scn:3 hdl:496091 hint:1157 comm:vperf@1.0-servi pid:633
+10-03 12:09:29.581 25183 25310 E _V_VPM  : VivoPermissionService is null!
+10-03 12:09:34.581  1409  1433 E VgcUtil : getFile name :theme_dir_pathnot exit in vgc_path_config.xml
+10-03 12:09:46.581  8791  8811 E _V_VPM  : VivoPermissionService is null!
+10-03 12:09:54.581 26439 26439 E ding:backgroun: Not starting debugger since process cannot load the jdwp agent.
+10-03 12:09:55.581 24269 24269 E ANDR-VIVO-PERF: IVPerf::tryGetService failed!
+10-03 12:10:03.987  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=175661KB
+10-03 12:10:27.896   581  9634 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error =  flag = 0x6
+10-03 12:10:27.898   581  9634 I chatty  : uid=1041(audioserver) writer identical 1 line
+10-03 12:10:27.903   581  9634 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error =  flag = 0x6
+10-03 12:10:27.978   581  9634 E [Awinic]: get file size failed !
+10-03 12:10:27.978   581  9634 E AudioALSAPlaybackHandlerNormal: SetParamsByScenes: Awinic Init failed, init normal param again 
+10-03 12:10:28.003   581  9634 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error =  flag = 0x6
+10-03 12:10:28.009   581  9634 E AudioALSAPlaybackHandlerBase: -getHardwareBufferInfo(), pcm_get_htimestamp fail, ret = -1, pcm_get_error =  flag = 0x6
+10-03 12:10:28.314   581  1238 E AudioALSAStreamManager: -openInputStream(), set fail, return NULL
+10-03 12:10:28.450   581   581 E FMQ     : grantorIdx must be less than 3
+10-03 12:10:28.452   581   581 E FMQ     : grantorIdx must be less than 3
+10-03 12:10:28.461   581 27088 E AudioALSAStreamManager: createCaptureHandler(), ptr is NULL!!
+10-03 12:10:30.581   446 17365 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+10-03 12:10:44.581   635  1087 V APM_AudioPolicyManager: setAppState(portId:12936, state:2)
+10-03 12:10:57.581 25183 26567 E _V_VPM  : VivoPermissionService is null!
+10-03 12:12:04.049  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=180409KB
+10-03 12:12:54.022   946  5810 E OMXNodeInstance: getParameter(0xf6c46004:MTK.DECODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-03 12:13:07.581   386   386 E SELinux : avc:  denied  { find } for interface=vendor.vivo.hardware.vperf::IVPerf sid=u:r:untrusted_app:s0:c206,c256,c512,c768 pid=24269 scontext=u:r:untrusted_app:s0:c206,c256,c512,c768 tcontext=u:object_r:hal_vperf_hwservice:s0 tclass=hwservice_manager permissive=0
+10-03 12:14:04.051  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=180693KB
+10-03 12:15:34.225   946  5810 E OMXNodeInstance: getConfig(0xf71a4804:MTK.DECODER.AVC, ConfigCommonOutputCrop(0x700000f)) ERROR: BadParameter(0x80001005)
+10-03 12:15:51.128   603   680 I libPowerHal: [perfLockAcq] idx:2 hdl:496581 hint:25 pid:603 duration:10000 => ret_hdl:496581
+10-03 12:15:51.128   603   680 I libPowerHal: [PE] scn:2 hdl:496581 hint:25 comm:mtkpower@1.0-se pid:603
+10-03 12:15:51.190   603   680 I libPowerHal: [perfLockRel] hdl:496581, idx:2
+10-03 12:15:51.190   603   680 I libPowerHal: [PD] scn:2 hdl:496581 hint:25 comm:mtkpower@1.0-se pid:603
+10-03 12:16:24.377  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=181675KB
+10-03 12:20:15.581   570  1005 E libnetd_resolv: QUERY_RESOLV_NETID command.uid:10171, nid:0
+10-03 12:20:46.009 32581 32581 E pfilter:servic: Not starting debugger since process cannot load the jdwp agent.
+10-03 12:20:46.242 32581 32613 E _V_VPM  : VivoPermissionService is null!
+10-03 12:20:46.287 32581 32613 E _V_VPM  : VivoPermissionService is null!
+10-03 12:21:15.606  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=181101KB
+10-03 12:24:31.581  1409  1542 E _V_SensorManager: unregisterListenerImpl listener=com.android.server.policy.VivoWMPHook$1@abfbec3sensor=NULL num: 4
+10-03 12:25:09.350  1409  1431 E _V_VivoVibratorServiceImpl: onProcessDied pid: 32581,uid: 1000
+10-03 12:25:09.581   603   680 I libPowerHal: [perfLockRel] hdl:496805, idx:-1
+10-03 12:25:55.412  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=180878KB
+10-03 12:26:22.581   603   680 I libPowerHal: [perfLockAcq] idx:0 hdl:496854 hint:1157 pid:633 duration:80 => ret_hdl:496854
+10-03 12:26:22.581   603   680 I libPowerHal: [PE] scn:0 hdl:496854 hint:1157 comm:vperf@1.0-servi pid:633
+10-03 12:26:22.581   633   633 I mtkpower_client: perf_lock_rel, hdl:496853, tid:633
+10-03 12:27:55.480  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=180704KB
+10-03 12:29:02.581   446   452 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+10-03 12:29:55.521  1723  5700 E _V_RMS-Leak: WARNED!!! physical-memory process=android.hardware.audio.service.mediatek pid=581 size=183337KB
